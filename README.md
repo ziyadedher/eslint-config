@@ -1,1 +1,1 @@
-# eslint-config-hyper
+# eslint-config-ziyad
