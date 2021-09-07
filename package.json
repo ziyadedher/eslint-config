@@ -1,5 +1,6 @@
 {
   "name": "eslint-config-ziyad",
+  "version": "0.0.1",
   "license": "Unlicense",
   "engines": {
     "node": ">=16.3.0"
