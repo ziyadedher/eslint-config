@@ -1,0 +1,9 @@
+# Rules: https://www.npmjs.com/package/eslint-plugin-react-hooks
+# Version: 4.2.0
+# Last updated: 2021-09-06
+
+rules:
+  react-hooks/rules-of-hooks:
+    - error
+  react-hooks/exhaustive-deps:
+    - warn

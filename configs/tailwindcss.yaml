@@ -1,0 +1,11 @@
+# Rules: https://github.com/francoismassart/eslint-plugin-tailwindcss#supported-rules
+# Version: 1.14.3
+# Last updated: 2021-09-06
+
+rules:
+  tailwindcss/classnames-order:
+    - error
+  tailwindcss/no-custom-classname:
+    - error
+  tailwindcss/no-contradicting-classname:
+    - error

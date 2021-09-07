@@ -1,0 +1,119 @@
+# Rules: https://github.com/import-js/eslint-plugin-import#rules
+# Version: 2.24.2
+# Last updated: 2021-09-05
+
+rules:
+  # Static Analysis
+  import/no-unresolved:
+    - error
+    - caseSensitive: true
+  import/named:
+    - error
+  import/default:
+    - error
+  import/namespace:
+    - error
+    - allowComputed: true
+  import/no-restricted-paths:
+    - off
+  import/no-absolute-path:
+    - error
+  import/no-dynamic-require:
+    - error
+  import/no-internal-modules:
+    - error
+  import/no-webpack-loader-syntax:
+    - error
+  import/no-self-import:
+    - error
+  import/no-cycle:
+    - error
+    - maxDepth: 4
+      ignoreExternal: true
+  import/no-useless-path-segments:
+    - error
+    - noUselessIndex: true
+  import/no-relative-parent-imports:
+    - off
+  import/no-relative-packages:
+    - off
+
+  # Helpful Warnings
+  import/export:
+    - error
+  import/no-named-as-default:
+    - error
+  import/no-named-as-default-member:
+    - error
+  import/no-deprecated:
+    - error
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies: false
+      optionalDependencies: true
+      peerDependencies: true
+      bundledDependencies: true
+  import/no-mutable-exports:
+    - error
+  import/no-unused-modules:
+    - off
+
+  # Module Systems
+  import/unambiguous:
+    - error
+  import/no-commonjs:
+    - error
+  import/no-amd:
+    - error
+  import/no-nodejs-modules:
+    - off
+  import/no-import-module-exports:
+    - off
+
+  # Style Guide
+  import/first:
+    - error
+  import/exports-last:
+    - error
+  import/no-duplicates:
+    - error
+  import/no-namespace:
+    - error
+  import/extensions:
+    - off
+  import/order:
+    - error
+    - groups:
+      - builtin
+      - external
+      - internal
+      - parent
+      - sibling
+      - index
+      - object
+      - type
+    - newlines-between: always
+    - alphabetize:
+      - order: 'asc'
+        caseInsensitive: true
+  import/newline-after-import:
+    - error
+    - count: 2
+  import/prefer-default-export:
+    - error
+  import/max-dependencies:
+    - off
+  import/no-unassigned-import:
+    - error
+  import/no-named-default:
+    - error
+  import/no-default-export:
+    - off
+  import/no-named-export:
+    - off
+  import/no-anonymous-default-export:
+    - off
+  import/group-exports:
+    - off
+  import/dynamic-import-chunkname:
+    - off

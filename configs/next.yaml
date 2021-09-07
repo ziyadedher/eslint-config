@@ -1,0 +1,35 @@
+# Rules: https://nextjs.org/docs/basic-features/eslint#eslint-plugin
+# Version: 11.1.2
+# Last updated: 2021-09-06
+
+rules:
+  next/google-font-display:
+    - error
+  next/google-font-preconnect:
+    - error
+  next/link-passhref:
+    - error
+  next/no-css-tags:
+    - error
+  next/no-document-import-in-page:
+    - error
+  next/no-head-import-in-document:
+    - error
+  next/no-html-link-for-pages:
+    - error
+  next/no-img-element:
+    - error
+  next/no-page-custom-font:
+    - error
+  next/no-sync-scripts:
+    - error
+  next/no-title-in-document-head:
+    - error
+  next/no-unwanted-polyfillio:
+    - error
+  next/inline-script-id:
+    - error
+  next/no-typos:
+    - error
+  next/next-script-for-ga:
+    - error

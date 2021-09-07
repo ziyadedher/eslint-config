@@ -1,0 +1,46 @@
+root: true
+env:
+  browser: true
+  es2021: true
+  node: true
+  jest: true
+parser: "@typescript-eslint/parser"
+parserOptions:
+  ecmaVersion: 2021
+  sourceType: module
+  ecmaFeatures:
+    jsx: true
+
+plugins:
+  - eslint-comments
+  - import
+  - "@typescript-eslint"
+  - react
+  - react-hooks
+  - jsx-a11y
+  - node
+  - next
+  - tailwindcss
+  # - lodash
+  - jest
+  # - jest-formatting
+  # - istanbul
+  # - unicorn
+
+extends:
+  - ./configs/eslint.yaml
+  - ./configs/eslint-comments.yaml
+  - ./configs/import.yaml
+  - ./configs/typescript.yaml
+  - ./configs/react.yaml
+  - ./configs/react-hooks.yaml
+  - ./configs/jsx-a11y.yaml
+  - ./configs/node.yaml
+  - ./configs/next.yaml
+  - ./configs/tailwindcss.yaml
+  # - ./configs/lodash.yaml
+  - ./configs/jest.yaml
+  # - ./configs/jest-formatting.yaml
+  # - ./configs/istanbul.yaml
+  # - ./configs/unicorn.yaml
+  - prettier
