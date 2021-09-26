@@ -96,8 +96,8 @@ rules:
 overrides:
   - files:
     - tests/**
-  rules:
-    "@typescript-eslint/unbound-method"
-      - off
-    jest/unbound-method:
-      - error
+    rules:
+      "@typescript-eslint/unbound-method":
+        - off
+      jest/unbound-method:
+        - error
