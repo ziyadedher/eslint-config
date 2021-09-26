@@ -1,11 +1,11 @@
 {
   "name": "@ziyadedher/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Unlicense",
-  "publishConfig": {
-    "@ziyadedher:registry": "https://npm.pkg.github.com"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziyadedher/eslint-config.git"
   },
-  "respository": "git://github.com/ziyadedher/eslint-config.git",
   "engines": {
     "node": ">=16.3.0"
   },
