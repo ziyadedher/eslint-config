@@ -21,7 +21,7 @@ rules:
     - error
   jest/no-commented-out-tests:
     - warn
-  jest/no-conditional-except:
+  jest/no-conditional-expect:
     - error
   jest/no-deprecated-functions:
     - error

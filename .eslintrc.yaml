@@ -44,3 +44,6 @@ extends:
   # - ./configs/istanbul.yaml
   # - ./configs/unicorn.yaml
   - prettier
+
+settings:
+  import/resolver: node
