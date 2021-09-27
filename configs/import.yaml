@@ -21,7 +21,7 @@ rules:
   import/no-dynamic-require:
     - error
   import/no-internal-modules:
-    - error
+    - off
   import/no-webpack-loader-syntax:
     - error
   import/no-self-import:
@@ -98,7 +98,7 @@ rules:
         caseInsensitive: true
   import/newline-after-import:
     - error
-    - count: 2
+    - count: 1
   import/prefer-default-export:
     - error
   import/max-dependencies:

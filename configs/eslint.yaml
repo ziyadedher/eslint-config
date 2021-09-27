@@ -207,7 +207,7 @@ rules:
     - error
     - allowLoop: false
       allowSwitch: false
-  no-lone-block:
+  no-lone-blocks:
     - error
   no-loop-func:
     - error
@@ -301,7 +301,7 @@ rules:
     - error
   vars-on-top:
     - off
-  wrap-iffe:
+  wrap-iife:
     - error
     - inside
     - functionPrototypeMethods: true
@@ -408,7 +408,7 @@ rules:
     - error
     - declaration
     - allowArrowFunctions: true
-  function-call-arguments-newline:
+  function-call-argument-newline:
     - error
     - consistent
   function-paren-newline:

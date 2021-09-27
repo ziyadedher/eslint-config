@@ -78,11 +78,9 @@ rules:
     - selector: variableLike
       format:
         - camelCase
-        - PascalCase
     - selector: memberLike
       format:
         - camelCase
-        - PascalCase
     - selector: typeLike
       format:
         - PascalCase
@@ -96,6 +94,7 @@ rules:
         - global
       format:
         - UPPER_CASE
+        - PascalCase
     - selector: variable
       modifiers:
         - const
@@ -200,11 +199,11 @@ rules:
     - error
     - checksConditionals: true
       checksVoidReturn: true
-  "@typescript-eslint/no-namespaces":
+  "@typescript-eslint/no-namespace":
     - error
     - allowDeclarations: false
       allowDefinitionFiles: false
-  "@typescript-eslint/no-non-null-aasserted-optional-chain":
+  "@typescript-eslint/no-non-null-asserted-optional-chain":
     - error
   "@typescript-eslint/no-non-null-assertion":
     - error
@@ -283,7 +282,7 @@ rules:
     - error
   "@typescript-eslint/prefer-return-this-type":
     - error
-  "@typescript-eslint/prefer-string-stards-ends-with":
+  "@typescript-eslint/prefer-string-starts-ends-with":
     - error
   "@typescript-eslint/prefer-ts-expect-error":
     - error
