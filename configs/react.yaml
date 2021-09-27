@@ -158,7 +158,7 @@ rules:
   react/jsx-filename-extension:
     - error
     - allow: as-needed
-      extensions: ".tsx"
+      extensions: [".tsx"]
   react/jsx-first-prop-new-line:
     - error
     - multiline

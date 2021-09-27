@@ -291,7 +291,7 @@ rules:
     - allowEmptyReject: false
   prefer-regex-literals:
     - error
-    - disallowRedudantWrapping: true
+    - disallowRedundantWrapping: true
   radix:
     - error
     - as-needed
@@ -368,7 +368,7 @@ rules:
     - error
     - properties: always
       ignoreDestructuring: false
-      ignoreImporst: false
+      ignoreImports: false
       ignoreGlobals: false
   capitalized-comments:
     - warn

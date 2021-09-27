@@ -57,11 +57,11 @@ rules:
   "@typescript-eslint/member-delimiter-style":
     - error
     - multiline:
-        - delimiter: semi
-          requireLast: true
+        delimiter: semi
+        requireLast: true
       singleline:
-        - delimiter: semi
-          requireLast: true
+        delimiter: semi
+        requireLast: true
       multilineDetection: brackets
   "@typescript-eslint/member-ordering":
     - error
@@ -70,85 +70,85 @@ rules:
     - property
   "@typescript-eslint/naming-convention":
     - error
-    - - selector: default
-        format:
-          - camelCase
-        leadingUnderscore: allow
-        trailingUnderscore: forbid
-      - selector: variableLike
-        format:
-          - camelCase
-          - PascalCase
-      - selector: memberLike
-        format:
-          - camelCase
-          - PascalCase
-      - selector: typeLike
-        format:
-          - PascalCase
-      - selector: variableLike
-        modifiers:
-          - unused
-        format: null
-      - selector: variable
-        modifiers:
-          - const
-          - global
-        format:
-          - UPPER_CASE
-      - selector: variable
-        modifier:
-          - const
-          - global
-        types:
-          - function
-        format:
-          - camelCase
-          - PascalCase
-      - selector: enumMember
-        format:
-          - UPPER_CASE
-      - selector: memberLike
-        modifier:
-          - private
-        format:
-          - camelCase
-        leadingUnderscore: require
-      - selector: memberLike
-        modifier:
-          - protected
-        format:
-          - camelCase
-        leadingUnderscore: require
-      - selector:
-          - variable
-          - parameter
-        types:
-          - boolean
-        format:
-          - PascalCase
-        prefix:
-          - is
-          - should
-          - has
-          - can
-          - did
-          - will
-      - selector: interface
-        format:
-          - PascalCase
-        custom:
-          - regex: ^I[A-Z]
-            match: false
-      - selector: typeParameter
-        format:
-          - PascalCase
-        prefix:
-          - T
-      - selector: variable
-        modifiers:
-          - destructured
-        format: null
+    - selector: default
+      format:
+        - camelCase
+      leadingUnderscore: allow
+      trailingUnderscore: forbid
+    - selector: variableLike
+      format:
+        - camelCase
+        - PascalCase
+    - selector: memberLike
+      format:
+        - camelCase
+        - PascalCase
+    - selector: typeLike
+      format:
+        - PascalCase
+    - selector: variableLike
+      modifiers:
+        - unused
+      format: null
+    - selector: variable
+      modifiers:
+        - const
+        - global
+      format:
+        - UPPER_CASE
+    - selector: variable
+      modifiers:
+        - const
+        - global
+      types:
+        - function
+      format:
+        - camelCase
+        - PascalCase
+    - selector: enumMember
+      format:
+        - UPPER_CASE
+    - selector: memberLike
+      modifiers:
+        - private
+      format:
+        - camelCase
+      leadingUnderscore: require
+    - selector: memberLike
+      modifiers:
+        - protected
+      format:
+        - camelCase
+      leadingUnderscore: require
+    - selector:
+        - variable
+        - parameter
+      types:
+        - boolean
+      format:
+        - PascalCase
+      prefix:
+        - is
+        - should
+        - has
+        - can
+        - did
+        - will
+    - selector: interface
+      format:
+        - PascalCase
+      custom:
+        regex: ^I[A-Z]
+        match: false
+    - selector: typeParameter
+      format:
+        - PascalCase
+      prefix:
+        - T
+    - selector: variable
+      modifiers:
+        - destructured
+      format: null
   "@typescript-eslint/no-base-to-string":
     - error
   "@typescript-eslint/no-confusing-non-null-assertion":
@@ -276,7 +276,7 @@ rules:
     - error
     - checkParameterProperties: true
       ignoreInferredTypes: false
-      treadMethodsAsReadonly: false
+      treatMethodsAsReadonly: false
   "@typescript-eslint/prefer-reduce-type-parameter":
     - error
   "@typescript-eslint/prefer-regexp-exec":
@@ -308,7 +308,7 @@ rules:
     - error
     - allowString: false
       allowNumber: false
-      allowNullableObjet: false
+      allowNullableObject: false
       allowNullableBoolean: false
       allowNullableString: false
       allowNullableNumber: false
