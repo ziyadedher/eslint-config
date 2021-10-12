@@ -49,7 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-node", "virtual:1a3c692196553268ef7464c510351ac6faeeabb06d3ea18d3268789b14bb3e9e0febcf26b066ccc3126872a1cf4ed1cf143f222d389205a9c1b282fc3e2dbfaa#npm:11.1.0"],
             ["eslint-plugin-react", "virtual:1a3c692196553268ef7464c510351ac6faeeabb06d3ea18d3268789b14bb3e9e0febcf26b066ccc3126872a1cf4ed1cf143f222d389205a9c1b282fc3e2dbfaa#npm:7.26.1"],
             ["eslint-plugin-react-hooks", "virtual:1a3c692196553268ef7464c510351ac6faeeabb06d3ea18d3268789b14bb3e9e0febcf26b066ccc3126872a1cf4ed1cf143f222d389205a9c1b282fc3e2dbfaa#npm:4.2.0"],
-            ["eslint-plugin-tailwindcss", "npm:1.14.3"],
+            ["eslint-plugin-tailwindcss", "npm:1.17.0"],
             ["typescript", "patch:typescript@npm%3A4.4.3#~builtin<compat/typescript>::version=4.4.3&hash=32657b"]
           ],
           "linkType": "SOFT",
@@ -781,7 +781,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-node", "virtual:1a3c692196553268ef7464c510351ac6faeeabb06d3ea18d3268789b14bb3e9e0febcf26b066ccc3126872a1cf4ed1cf143f222d389205a9c1b282fc3e2dbfaa#npm:11.1.0"],
             ["eslint-plugin-react", "virtual:1a3c692196553268ef7464c510351ac6faeeabb06d3ea18d3268789b14bb3e9e0febcf26b066ccc3126872a1cf4ed1cf143f222d389205a9c1b282fc3e2dbfaa#npm:7.26.1"],
             ["eslint-plugin-react-hooks", "virtual:1a3c692196553268ef7464c510351ac6faeeabb06d3ea18d3268789b14bb3e9e0febcf26b066ccc3126872a1cf4ed1cf143f222d389205a9c1b282fc3e2dbfaa#npm:4.2.0"],
-            ["eslint-plugin-tailwindcss", "npm:1.14.3"],
+            ["eslint-plugin-tailwindcss", "npm:1.17.0"],
             ["typescript", "patch:typescript@npm%3A4.4.3#~builtin<compat/typescript>::version=4.4.3&hash=32657b"]
           ],
           "linkType": "SOFT",
@@ -2225,13 +2225,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eslint-plugin-tailwindcss", [
-        ["npm:1.14.3", {
-          "packageLocation": "./.yarn/cache/eslint-plugin-tailwindcss-npm-1.14.3-23e5f72681-9da2da3318.zip/node_modules/eslint-plugin-tailwindcss/",
+        ["npm:1.17.0", {
+          "packageLocation": "./.yarn/cache/eslint-plugin-tailwindcss-npm-1.17.0-d6baa14205-cf006566ed.zip/node_modules/eslint-plugin-tailwindcss/",
           "packageDependencies": [
-            ["eslint-plugin-tailwindcss", "npm:1.14.3"],
+            ["eslint-plugin-tailwindcss", "npm:1.17.0"],
             ["fast-glob", "npm:3.2.7"],
             ["postcss", "npm:8.3.6"],
-            ["tailwindcss", "virtual:23e5f72681f7c1c74071c91918b66ad8b56ff7a43278cba56086dd36651bbc8403b8d565d5975cb6a832ababb83ecdd7e8f6d5abd7016cb30ff31a6f28d7f165#npm:2.2.10"]
+            ["tailwindcss", "virtual:d6baa1420588e39eb1c1a3a91740bb7761ccc14b33b357332cc5b9861a93ed340fc50427510ccf6e2a9d4cee7d99fc0e541a98a2c167fa5a456d55fe11d9c3ca#npm:2.2.10"]
           ],
           "linkType": "HARD",
         }]
@@ -4166,10 +4166,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:995ad98d5c99e917f1a90f5b5a59a0c5f1871e009060ea406ee4d5a929a241d4829cb3fc5966e881c60f2072550c253ed01a4417529b42f00dcb1a281ff08057#npm:3.1.0", {
-          "packageLocation": "./.yarn/__virtual__/postcss-load-config-virtual-4b14dbd884/0/cache/postcss-load-config-npm-3.1.0-9e1e33c439-7fd62064ea.zip/node_modules/postcss-load-config/",
+        ["virtual:656a3752e805623a584301041fdc4153877166d73b8ab3a2804dbf45129f80bef7a2ac6f1731bcd6ad072b99b061ea323bc9d29b142db440f3819453525a7f81#npm:3.1.0", {
+          "packageLocation": "./.yarn/__virtual__/postcss-load-config-virtual-9813a86397/0/cache/postcss-load-config-npm-3.1.0-9e1e33c439-7fd62064ea.zip/node_modules/postcss-load-config/",
           "packageDependencies": [
-            ["postcss-load-config", "virtual:995ad98d5c99e917f1a90f5b5a59a0c5f1871e009060ea406ee4d5a929a241d4829cb3fc5966e881c60f2072550c253ed01a4417529b42f00dcb1a281ff08057#npm:3.1.0"],
+            ["postcss-load-config", "virtual:656a3752e805623a584301041fdc4153877166d73b8ab3a2804dbf45129f80bef7a2ac6f1731bcd6ad072b99b061ea323bc9d29b142db440f3819453525a7f81#npm:3.1.0"],
             ["@types/ts-node", null],
             ["import-cwd", "npm:3.0.0"],
             ["lilconfig", "npm:2.0.3"],
@@ -4191,10 +4191,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:995ad98d5c99e917f1a90f5b5a59a0c5f1871e009060ea406ee4d5a929a241d4829cb3fc5966e881c60f2072550c253ed01a4417529b42f00dcb1a281ff08057#npm:5.0.6", {
-          "packageLocation": "./.yarn/__virtual__/postcss-nested-virtual-6135437bbd/0/cache/postcss-nested-npm-5.0.6-d408d3cd6e-dbcbfd11e5.zip/node_modules/postcss-nested/",
+        ["virtual:656a3752e805623a584301041fdc4153877166d73b8ab3a2804dbf45129f80bef7a2ac6f1731bcd6ad072b99b061ea323bc9d29b142db440f3819453525a7f81#npm:5.0.6", {
+          "packageLocation": "./.yarn/__virtual__/postcss-nested-virtual-377117ba97/0/cache/postcss-nested-npm-5.0.6-d408d3cd6e-dbcbfd11e5.zip/node_modules/postcss-nested/",
           "packageDependencies": [
-            ["postcss-nested", "virtual:995ad98d5c99e917f1a90f5b5a59a0c5f1871e009060ea406ee4d5a929a241d4829cb3fc5966e881c60f2072550c253ed01a4417529b42f00dcb1a281ff08057#npm:5.0.6"],
+            ["postcss-nested", "virtual:656a3752e805623a584301041fdc4153877166d73b8ab3a2804dbf45129f80bef7a2ac6f1731bcd6ad072b99b061ea323bc9d29b142db440f3819453525a7f81#npm:5.0.6"],
             ["@types/postcss", null],
             ["postcss", "npm:8.3.6"],
             ["postcss-selector-parser", "npm:6.0.6"]
@@ -5039,10 +5039,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:23e5f72681f7c1c74071c91918b66ad8b56ff7a43278cba56086dd36651bbc8403b8d565d5975cb6a832ababb83ecdd7e8f6d5abd7016cb30ff31a6f28d7f165#npm:2.2.10", {
-          "packageLocation": "./.yarn/__virtual__/tailwindcss-virtual-995ad98d5c/0/cache/tailwindcss-npm-2.2.10-2e3cb77ad7-e5a1116e79.zip/node_modules/tailwindcss/",
+        ["virtual:d6baa1420588e39eb1c1a3a91740bb7761ccc14b33b357332cc5b9861a93ed340fc50427510ccf6e2a9d4cee7d99fc0e541a98a2c167fa5a456d55fe11d9c3ca#npm:2.2.10", {
+          "packageLocation": "./.yarn/__virtual__/tailwindcss-virtual-656a3752e8/0/cache/tailwindcss-npm-2.2.10-2e3cb77ad7-e5a1116e79.zip/node_modules/tailwindcss/",
           "packageDependencies": [
-            ["tailwindcss", "virtual:23e5f72681f7c1c74071c91918b66ad8b56ff7a43278cba56086dd36651bbc8403b8d565d5975cb6a832ababb83ecdd7e8f6d5abd7016cb30ff31a6f28d7f165#npm:2.2.10"],
+            ["tailwindcss", "virtual:d6baa1420588e39eb1c1a3a91740bb7761ccc14b33b357332cc5b9861a93ed340fc50427510ccf6e2a9d4cee7d99fc0e541a98a2c167fa5a456d55fe11d9c3ca#npm:2.2.10"],
             ["@types/autoprefixer", null],
             ["@types/postcss", null],
             ["arg", "npm:5.0.1"],
@@ -5068,8 +5068,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object-hash", "npm:2.2.0"],
             ["postcss", "npm:8.3.6"],
             ["postcss-js", "npm:3.0.3"],
-            ["postcss-load-config", "virtual:995ad98d5c99e917f1a90f5b5a59a0c5f1871e009060ea406ee4d5a929a241d4829cb3fc5966e881c60f2072550c253ed01a4417529b42f00dcb1a281ff08057#npm:3.1.0"],
-            ["postcss-nested", "virtual:995ad98d5c99e917f1a90f5b5a59a0c5f1871e009060ea406ee4d5a929a241d4829cb3fc5966e881c60f2072550c253ed01a4417529b42f00dcb1a281ff08057#npm:5.0.6"],
+            ["postcss-load-config", "virtual:656a3752e805623a584301041fdc4153877166d73b8ab3a2804dbf45129f80bef7a2ac6f1731bcd6ad072b99b061ea323bc9d29b142db440f3819453525a7f81#npm:3.1.0"],
+            ["postcss-nested", "virtual:656a3752e805623a584301041fdc4153877166d73b8ab3a2804dbf45129f80bef7a2ac6f1731bcd6ad072b99b061ea323bc9d29b142db440f3819453525a7f81#npm:5.0.6"],
             ["postcss-selector-parser", "npm:6.0.6"],
             ["postcss-value-parser", "npm:4.1.0"],
             ["pretty-hrtime", "npm:1.0.3"],
