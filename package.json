@@ -11,7 +11,7 @@
   },
   "packageManager": "yarn@3.0.2",
   "devDependencies": {
-    "@yarnpkg/sdks": "2.4.2-rc.2"
+    "@yarnpkg/sdks": "2.4.2-rc.10"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "11.1.2",
