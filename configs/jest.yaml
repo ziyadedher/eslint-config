@@ -1,6 +1,6 @@
 # Rules: https://github.com/jest-community/eslint-plugin-jest#rules
-# Version: 24.4.0
-# Last updated: 2021-09-06
+# Version: 25.2.2
+# Last updated: 2021-10-20
 
 rules:
   jest/consistent-test-it:
