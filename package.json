@@ -11,7 +11,7 @@
   },
   "packageManager": "yarn@3.0.2",
   "devDependencies": {
-    "@yarnpkg/sdks": "2.4.2-rc.2"
+    "@yarnpkg/sdks": "2.4.2-rc.10"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "11.1.2",
@@ -21,7 +21,7 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-import-resolver-node": "0.3.6",
     "eslint-plugin-eslint-comments": "3.2.0",
-    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-import": "2.25.2",
     "eslint-plugin-jest": "25.2.2",
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-node": "11.1.0",
