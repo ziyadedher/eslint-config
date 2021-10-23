@@ -1,6 +1,6 @@
 # Rules: https://eslint.org/docs/rules/
-# Version: 7.32.0
-# Last updated: 2021-09-05
+# Version: 8.1.0
+# Last updated: 2021-10-23
 
 rules:
   # Possible Errors
@@ -266,6 +266,8 @@ rules:
       allowTaggedTemplates: false
       enforceForJSX: true
   no-unused-labels:
+    - error
+  no-unused-private-class-members:
     - error
   no-useless-call:
     - error
