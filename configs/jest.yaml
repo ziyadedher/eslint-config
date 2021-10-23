@@ -12,8 +12,6 @@ rules:
     - assertFunctionNames:
         - expect
         - ^expect.*$
-  jest/lowercase-name:
-    - error
   jest/max-nested-describe:
     - error
     - max: 3
@@ -63,15 +61,15 @@ rules:
     - error
   jest/prefer-expect-assertions:
     - off
+  jest/prefer-expect-resolves:
+    - error
   jest/prefer-hooks-on-top:
+    - error
+  jest/prefer-lowercase-title:
     - error
   jest/prefer-spy-on:
     - error
   jest/prefer-strict-equal:
-    - error
-  jest/prefer-to-be-null:
-    - error
-  jest/prefer-to-be-undefined:
     - error
   jest/prefer-to-contain:
     - error
@@ -79,11 +77,15 @@ rules:
     - error
   jest/prefer-todo:
     - error
+  jest/prefer-to-be:
+    - error
+  jest/require-hook:
+    - error
   jest/require-to-throw-message:
     - error
   jest/require-top-level-describe:
     - error
-  jest/valid-describe:
+  jest/valid-describe-callback:
     - error
   jest/valid-expect:
     - error
