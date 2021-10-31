@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@next/eslint-plugin-next", "npm:12.0.1"],
+            ["@next/eslint-plugin-next", "npm:12.0.2"],
             ["@typescript-eslint/eslint-plugin", "virtual:1a3c692196553268ef7464c510351ac6faeeabb06d3ea18d3268789b14bb3e9e0febcf26b066ccc3126872a1cf4ed1cf143f222d389205a9c1b282fc3e2dbfaa#npm:5.2.0"],
             ["@typescript-eslint/parser", "virtual:1a3c692196553268ef7464c510351ac6faeeabb06d3ea18d3268789b14bb3e9e0febcf26b066ccc3126872a1cf4ed1cf143f222d389205a9c1b282fc3e2dbfaa#npm:5.2.0"],
             ["@yarnpkg/sdks", "npm:2.5.0"],
@@ -75,10 +75,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@next/eslint-plugin-next", [
-        ["npm:12.0.1", {
-          "packageLocation": "./.yarn/cache/@next-eslint-plugin-next-npm-12.0.1-11bbf14957-41d45cd98b.zip/node_modules/@next/eslint-plugin-next/",
+        ["npm:12.0.2", {
+          "packageLocation": "./.yarn/cache/@next-eslint-plugin-next-npm-12.0.2-777794a450-1b776d475a.zip/node_modules/@next/eslint-plugin-next/",
           "packageDependencies": [
-            ["@next/eslint-plugin-next", "npm:12.0.1"],
+            ["@next/eslint-plugin-next", "npm:12.0.2"],
             ["glob", "npm:7.1.7"]
           ],
           "linkType": "HARD",
@@ -544,7 +544,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@ziyadedher/eslint-config", "workspace:."],
-            ["@next/eslint-plugin-next", "npm:12.0.1"],
+            ["@next/eslint-plugin-next", "npm:12.0.2"],
             ["@typescript-eslint/eslint-plugin", "virtual:1a3c692196553268ef7464c510351ac6faeeabb06d3ea18d3268789b14bb3e9e0febcf26b066ccc3126872a1cf4ed1cf143f222d389205a9c1b282fc3e2dbfaa#npm:5.2.0"],
             ["@typescript-eslint/parser", "virtual:1a3c692196553268ef7464c510351ac6faeeabb06d3ea18d3268789b14bb3e9e0febcf26b066ccc3126872a1cf4ed1cf143f222d389205a9c1b282fc3e2dbfaa#npm:5.2.0"],
             ["@yarnpkg/sdks", "npm:2.5.0"],
