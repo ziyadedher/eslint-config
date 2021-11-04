@@ -27,7 +27,7 @@ rules:
   node/no-unpublished-bin:
     - error
   node/no-unpublished-import:
-    - error
+    - off
   node/no-unpublished-require:
     - error
   node/no-unsupported-features/es-builtins:

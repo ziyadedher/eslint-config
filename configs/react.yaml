@@ -16,7 +16,7 @@ rules:
     - allowRequiredDefaults: false
   react/destructuring-assignment:
     - error
-    - never
+    - always
   react/display-name:
     - warn
     - ignoreTranspilerName: false
@@ -106,9 +106,7 @@ rules:
   react/react-in-jsx-scope:
     - off
   react/require-default-props:
-    - error
-    - forbidDefaultForRequired: false
-      ignoreFunctionalComponents: false
+    - off
   react/require-optimization:
     - off
   react/require-render-return:
