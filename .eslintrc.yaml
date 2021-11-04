@@ -6,6 +6,7 @@ env:
   jest: true
 parser: "@typescript-eslint/parser"
 parserOptions:
+  project: "./tsconfig.json"
   ecmaVersion: 2021
   sourceType: module
   ecmaFeatures:
@@ -46,4 +47,21 @@ extends:
   - prettier
 
 settings:
-  import/resolver: node
+  import/resolver:
+    typescript:
+      project: "./tsconfig.json"
+      alwaysTryTypes: true
+  import/parsers:
+    "@typescript-eslint/parser":
+      - ".ts"
+      - ".tsx"
+  node:
+    tryExtensions:
+      - ".json"
+      - ".js"
+      - ".jsx"
+      - ".ts"
+      - ".tsx"
+      - ".d.ts"
+  react:
+    version: detect
