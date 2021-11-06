@@ -28,12 +28,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:12.0.2":
-  version: 12.0.2
-  resolution: "@next/eslint-plugin-next@npm:12.0.2"
+"@next/eslint-plugin-next@npm:12.0.3":
+  version: 12.0.3
+  resolution: "@next/eslint-plugin-next@npm:12.0.3"
   dependencies:
     glob: 7.1.7
-  checksum: 1b776d475ac31b52ffb77ddbc9542f6811d856ec647c91af9ee4540d0a7716174bcd8de0e83e4ed9f6ae7f3ca78771f85b45c7eed30540a5c4f43cb1cadb82ca
+  checksum: fc1d3486f0addf892738677d93e0be82d98d4ea1caccfc8835830c963b4af12fa79f1cdd14ac9bfd4ee12fe60e5deb6c5d4f43441a444b2b158bb17187d8b636
   languageName: node
   linkType: hard
 
@@ -393,7 +393,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ziyadedher/eslint-config@workspace:."
   dependencies:
-    "@next/eslint-plugin-next": 12.0.2
+    "@next/eslint-plugin-next": 12.0.3
     "@typescript-eslint/eslint-plugin": 5.3.0
     "@typescript-eslint/parser": 5.3.0
     "@yarnpkg/sdks": 2.5.0
