@@ -249,7 +249,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:5eff3c519c2ab3ed42e2578c877c6ddd50c9601362b548042b7a472a47ed798ed8d9e534862bf1b3cf50ded1823c3849a0820270d3fbdcfc4df715b94c8919c8#npm:4.3.2"],
             ["eslint", null],
             ["functional-red-black-tree", "npm:1.0.1"],
-            ["ignore", "npm:5.1.8"],
+            ["ignore", "npm:5.1.9"],
             ["regexpp", "npm:3.2.0"],
             ["semver", "npm:7.3.5"],
             ["tsutils", "virtual:5eff3c519c2ab3ed42e2578c877c6ddd50c9601362b548042b7a472a47ed798ed8d9e534862bf1b3cf50ded1823c3849a0820270d3fbdcfc4df715b94c8919c8#npm:3.21.0"],
@@ -1182,7 +1182,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["array-union", "npm:2.1.0"],
             ["dir-glob", "npm:3.0.1"],
             ["fast-glob", "npm:3.2.7"],
-            ["ignore", "npm:5.1.8"],
+            ["ignore", "npm:5.1.9"],
             ["merge2", "npm:1.4.1"],
             ["slash", "npm:3.0.0"]
           ],
@@ -1276,10 +1276,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["ignore", [
-        ["npm:5.1.8", {
-          "packageLocation": "./.yarn/cache/ignore-npm-5.1.8-aa9a49ada4-967abadb61.zip/node_modules/ignore/",
+        ["npm:5.1.9", {
+          "packageLocation": "./.yarn/cache/ignore-npm-5.1.9-37a6b7259f-6f6b2235f4.zip/node_modules/ignore/",
           "packageDependencies": [
-            ["ignore", "npm:5.1.8"]
+            ["ignore", "npm:5.1.9"]
           ],
           "linkType": "HARD",
         }]
