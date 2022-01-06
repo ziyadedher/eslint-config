@@ -1,6 +1,6 @@
 # Rules: https://eslint.org/docs/rules/
-# Version: 8.1.0
-# Last updated: 2021-10-23
+# Version: 8.6.0
+# Last updated: 2022-01-05
 
 rules:
   # Possible Errors
@@ -698,6 +698,8 @@ rules:
       object: true
     - enforceForRenamedProperties: true
   prefer-numeric-literals:
+    - error
+  prefer-object-has-own:
     - error
   prefer-rest-params:
     - error
