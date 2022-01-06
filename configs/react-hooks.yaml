@@ -1,6 +1,6 @@
 # Rules: https://www.npmjs.com/package/eslint-plugin-react-hooks
-# Version: 4.2.0
-# Last updated: 2021-09-06
+# Version: 4.3.0
+# Last updated: 2022-01-05
 
 rules:
   react-hooks/rules-of-hooks:

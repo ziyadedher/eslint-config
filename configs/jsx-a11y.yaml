@@ -1,6 +1,6 @@
 # Rules: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y#supported-rules
-# Version: 6.4.1
-# Last updated: 2021-09-06
+# Version: 6.5.1
+# Last updated: 2022-01-05
 
 rules:
   jsx-a11y/alt-text:
