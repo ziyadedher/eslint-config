@@ -1,6 +1,6 @@
 # Rules: https://nextjs.org/docs/basic-features/eslint#eslint-plugin
-# Version: 11.1.2
-# Last updated: 2021-09-06
+# Version: 12.0.6
+# Last updated: 2022-01-05
 
 rules:
   "@next/next/google-font-display":
@@ -16,6 +16,8 @@ rules:
   "@next/next/no-head-import-in-document":
     - error
   "@next/next/no-html-link-for-pages":
+    - error
+  "@next/next/no-head-element":
     - error
   "@next/next/no-img-element":
     - error
