@@ -1,6 +1,6 @@
 # Rules: https://nextjs.org/docs/basic-features/eslint#eslint-plugin
-# Version: 12.0.6
-# Last updated: 2022-01-05
+# Version: 12.1.6
+# Last updated: 2022-05-07
 
 rules:
   "@next/next/google-font-display":
