@@ -1,6 +1,6 @@
 # Rules: https://eslint.org/docs/rules/
-# Version: 8.6.0
-# Last updated: 2022-01-05
+# Version: 8.15.0
+# Last updated: 2022-05-07
 
 rules:
   # Possible Errors
@@ -19,6 +19,8 @@ rules:
     - error
     - except-parens
   no-console:
+    - error
+  no-constant-binary-expression:
     - error
   no-constant-condition:
     - error
