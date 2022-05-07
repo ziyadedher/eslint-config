@@ -1,6 +1,6 @@
 # Rules: https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
-# Version: 7.28.0
-# Last updated: 2022-01-05
+# Version: 7.29.4
+# Last updated: 2022-05-07
 
 rules:
   react/boolean-prop-naming:
@@ -34,6 +34,10 @@ rules:
     - error
     - namedComponents: arrow-function
       unnamedComponents: arrow-function
+  react/hook-use-state:
+    - error
+  react/iframe-missing-sandbox:
+    - error
   react/no-access-state-in-setstate:
     - error
   react/no-adjacent-inline-elements:
