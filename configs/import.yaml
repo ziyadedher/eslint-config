@@ -1,6 +1,6 @@
 # Rules: https://github.com/import-js/eslint-plugin-import#rules
-# Version: 2.25.2
-# Last updated: 2022-01-05
+# Version: 2.26.0
+# Last updated: 2022-05-07
 
 rules:
   # Static Analysis
