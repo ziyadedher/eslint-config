@@ -1,6 +1,6 @@
 # Rules: https://github.com/jest-community/eslint-plugin-jest#rules
-# Version: 25.3.4
-# Last updated: 2021-01-05
+# Version: 26.1.5
+# Last updated: 2021-05-07
 
 rules:
   jest/consistent-test-it:
@@ -21,6 +21,8 @@ rules:
     - warn
   jest/no-conditional-expect:
     - error
+  jest/no-conditional-in-test:
+    - error
   jest/no-deprecated-functions:
     - error
   jest/no-disabled-tests:
@@ -36,8 +38,6 @@ rules:
   jest/no-hooks:
     - error
   jest/no-identical-title:
-    - error
-  jest/no-if:
     - error
   jest/no-interpolation-in-snapshots:
     - error
@@ -59,6 +59,10 @@ rules:
     - error
   jest/prefer-called-with:
     - error
+  jest/prefer-comparison-matcher:
+    - error
+  jest/prefer-equality-matcher:
+    - error
   jest/prefer-expect-assertions:
     - off
   jest/prefer-expect-resolves:
@@ -67,6 +71,8 @@ rules:
     - error
   jest/prefer-lowercase-title:
     - error
+  jest/prefer-snapshot-hint:
+    - warn
   jest/prefer-spy-on:
     - error
   jest/prefer-strict-equal:
