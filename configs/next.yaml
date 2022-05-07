@@ -7,8 +7,6 @@ rules:
     - error
   "@next/next/google-font-preconnect":
     - error
-  "@next/next/link-passhref":
-    - error
   "@next/next/no-css-tags":
     - error
   "@next/next/no-document-import-in-page":
